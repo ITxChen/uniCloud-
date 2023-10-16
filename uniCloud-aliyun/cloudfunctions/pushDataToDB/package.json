@@ -1,0 +1,7 @@
+{
+  "name": "pushDataToDB",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

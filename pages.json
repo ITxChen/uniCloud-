@@ -1,0 +1,46 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "文章",
+				"navigationBarBackgroundColor": "",
+				"enablePullDownRefresh": true
+			}
+		}
+	    ,{
+            "path" : "pages/add/add",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "新增文章",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/edit/edit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "修改文章",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "文章管理系统",
+		"navigationBarBackgroundColor": "#2B9939",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

@@ -1,0 +1,7 @@
+{
+  "name": "artRemove",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}
